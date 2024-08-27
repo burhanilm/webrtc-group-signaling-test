@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.video-player{
+  background-color: black;
+  width: 100%;
+  max-width: 600px;
+  object-fit: cover;
+}
+
+.button-cont {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+}
+
+button {
+  width: calc((100% / 3) - 13px);
+  height: 50px;
+  margin: 5px;
+  display: inline-block;
+}
